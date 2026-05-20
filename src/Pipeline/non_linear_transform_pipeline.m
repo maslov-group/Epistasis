@@ -3,7 +3,6 @@
 
 approved_proteins = readtable("approved_proteins.csv");
 
-
 files = dir(fullfile("outputs", "20_esm2_650M_*.csv"));
 
 n = height(approved_proteins);
